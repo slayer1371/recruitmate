@@ -1,0 +1,21 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "name": "Slide 1",
+            "url": "src/images/car_img1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "image2.jpg",
+            "url": "http://example.com/images/image2.jpg",
+            "description": "A description of image 2"
+        },
+        {
+            "id": 3,
+            "name": "image3.jpg",
+            "url": "http://example.com/images/image3.jpg",
+            "description": "A description of image 3"
+        }
+    ]
+}

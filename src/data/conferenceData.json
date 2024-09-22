@@ -1,0 +1,322 @@
+{
+    "conferences": [
+      {
+        "name": "American Athletic Conference (AAC)",
+        "schools": [
+          {
+            "name": "Charlotte",
+            "city": "Charlotte",
+            "state": "North Carolina",
+            "recruit_questionnaire": "https://charlotte49ers.com/sb_output.aspx?form=3"
+          },
+          {
+            "name": "East Carolina University",
+            "city": "Greenville",
+            "state": "North Carolina",
+            "recruit_questionnaire": "https://ecupirates.com/documents/2016/8/1/Recruiting_Questionnaire22.pdf"
+          },
+          {
+            "name": "Florida Atlantic University",
+            "city": "Boca Raton",
+            "state": "Florida",
+            "recruit_questionnaire": "No"
+          },
+          {
+            "name": "University of Memphis",
+            "city": "Memphis",
+            "state": "Tennessee",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/7dde09e75316"
+          },
+          {
+            "name": "University of North Texas",
+            "city": "Denton",
+            "state": "Texas",
+            "recruit_questionnaire": "https://questionnaire.frontrush.com/Questionnaire/Questionnaire.aspx?q=823&s=6858&o=169"
+          },
+          {
+            "name": "Rice",
+            "city": "Houston",
+            "state": "Texas",
+            "recruit_questionnaire": "https://riceowls.com/form/20"
+          },
+          {
+            "name": "Temple University",
+            "city": "Philadelphia",
+            "state": "Pennsylvania",
+            "recruit_questionnaire": "https://college.jumpforward.com/questionnaire.aspx?iid=1723&sportid=58"
+          },
+          {
+            "name": "Tulane",
+            "city": "New Orleans",
+            "state": "Louisiana",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/7ce3d53ce7ba"
+          },
+          {
+            "name": "University of Tulsa",
+            "city": "Tulsa",
+            "state": "Oklahoma",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/09451f932717"
+          },
+          {
+            "name": "UAB",
+            "city": "Birmingham",
+            "state": "Alabama",
+            "recruit_questionnaire": "https://college.jumpforward.com/questionnaire.aspx?iid=1683&sportid=58"
+          },
+          {
+            "name": "University of South Florida",
+            "city": "Tampa",
+            "state": "Florida",
+            "recruit_questionnaire": "https://gousfbulls.com/sports/2009/1/28/3655928.aspx"
+          },
+          {
+            "name": "UTSA",
+            "city": "San Antonio",
+            "state": "Texas",
+            "recruit_questionnaire": "https://goutsa.com/prospective-student-athletes-questionnaires"
+          },
+          {
+            "name": "Wichita State",
+            "city": "Wichita",
+            "state": "Kansas",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/eaa5b26a4c0e",
+              "women": "https://questionnaires.armssoftware.com/eaa5b26a4c0e"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Atlantic Coast Conference (ACC)",
+        "schools": [
+          {
+            "name": "Boston College",
+            "city": "Chestnut Hill",
+            "state": "Massachusetts",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/44a8d19a067a",
+              "women": "https://questionnaires.armssoftware.com/aba53dee4a4d"
+            }
+          },
+          {
+            "name": "University of California",
+            "city": "Berkeley",
+            "state": "California",
+            "recruit_questionnaire": "https://college.jumpforward.com/questionnaire.aspx?iid=350&sportid=56"
+          },
+          {
+            "name": "Clemson University",
+            "city": "Clemson",
+            "state": "South Carolina",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/6a882f234e92?DB_OEM_ID=28500"
+          },
+          {
+            "name": "Duke University",
+            "city": "Durham",
+            "state": "North Carolina",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/47e14e1c94d6?path=tf"
+          },
+          {
+            "name": "Florida State University",
+            "city": "Tallahassee",
+            "state": "Florida",
+            "recruit_questionnaire": "No"
+          },
+          {
+            "name": "Georgia Tech",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "recruit_questionnaire": {
+              "men": "https://questionnaire.acsathletics.com/Questionnaire/Questionnaire.aspx?q=1432&s=59130&o=855",
+              "women": "https://questionnaire.acsathletics.com/Questionnaire/Questionnaire.aspx?q=1433&s=59131&o=855"
+            }
+          },
+          {
+            "name": "University of Louisville",
+            "city": "Louisville",
+            "state": "Kentucky",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/44b1bff3863f"
+          },
+          {
+            "name": "University of Miami",
+            "city": "Coral Gables",
+            "state": "Florida",
+            "recruit_questionnaire": "https://charlotte49ers.com/sb_output.aspx?form=3"
+          },
+          {
+            "name": "University of North Carolina",
+            "city": "Chapel Hill",
+            "state": "North Carolina",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/7c623b73606a"
+          },
+          {
+            "name": "North Carolina State University",
+            "city": "Raleigh",
+            "state": "North Carolina",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/3ce2f22f298a"
+          },
+          {
+            "name": "University of Notre Dame",
+            "city": "Notre Dame",
+            "state": "Indiana",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/61c7d96a860f"
+          },
+          {
+            "name": "University of Pittsburgh",
+            "city": "Pittsburgh",
+            "state": "Pennsylvania",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/b6869d7994ee",
+              "women": "https://questionnaires.armssoftware.com/47649308bf6e"
+            }
+          },
+          {
+            "name": "SMU",
+            "city": "Dallas",
+            "state": "Texas",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/01fa1b4422df"
+          },
+          {
+            "name": "Stanford",
+            "city": "Stanford",
+            "state": "California",
+            "recruit_questionnaire": "No"
+          },
+          {
+            "name": "Syracuse University",
+            "city": "Syracuse",
+            "state": "New York",
+            "recruit_questionnaire": "https://cuse.com/form/129?path=trun"
+          },
+          {
+            "name": "University of Virginia",
+            "city": "Charlottesville",
+            "state": "Virginia",
+            "recruit_questionnaire": "https://questionnaires.armssoftware.com/7ddcb1452c3a"
+          },
+          {
+            "name": "Virginia Tech",
+            "city": "Blacksburg",
+            "state": "Virginia",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/f72a088f0bfb",
+              "women": "https://questionnaires.armssoftware.com/9f15b204e1ea"
+            }
+          },
+          {
+            "name": "Wake Forest University",
+            "city": "Winston-Salem",
+            "state": "North Carolina",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/a8276f0d9d9c",
+              "women": "https://questionnaires.armssoftware.com/c506c6d6f1e2"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Big 12 Conference",
+        "schools": [
+          {
+            "name": "Baylor University",
+            "city": "Waco",
+            "state": "Texas",
+            "recruit_questionnaire": "https://questionnaire.acsathletics.com/Questionnaire/Questionnaire.aspx?q=1308&s=1356&o=6"
+          },
+          {
+            "name": "Brigham Young University (BYU)",
+            "city": "Provo",
+            "state": "Utah",
+            "recruit_questionnaire": {
+              "men": "https://college.jumpforward.com/questionnaire.aspx?iid=469&sportid=96",
+              "women": "https://college.jumpforward.com/questionnaire.aspx?iid=469&sportid=98"
+            }
+          },
+          {
+            "name": "University of Cincinnati",
+            "city": "Cincinnati",
+            "state": "Ohio",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/e09ff2b2f510",
+              "women": "https://questionnaires.armssoftware.com/6d6c1408f849"
+            }
+          },
+          {
+            "name": "University of Houston",
+            "city": "Houston",
+            "state": "Texas",
+            "recruit_questionnaire": "https://uhcougars.com/sb_output.aspx?form=3"
+          },
+          {
+            "name": "University of Kansas",
+            "city": "Lawrence",
+            "state": "Kansas",
+            "recruit_questionnaire": {
+              "men": "https://kuathletics.com/mens-track-field-recruit-questionnaire/",
+              "women": "https://kuathletics.com/womens-track-field-recruit-questionnaire/"
+            }
+          },
+          {
+            "name": "Kansas State University",
+            "city": "Manhattan",
+            "state": "Kansas",
+            "recruit_questionnaire": {
+              "men": "https://college.jumpforward.com/questionnaire.aspx?iid=404&sportid=107",
+              "women": "https://college.jumpforward.com/questionnaire.aspx?iid=404&sportid=107"
+            }
+          },
+          {
+            "name": "Oklahoma State University",
+            "city": "Stillwater",
+            "state": "Oklahoma",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/206b0d9e270a",
+              "women": "https://questionnaires.armssoftware.com/7e74255cf07e"
+            }
+          },
+          {
+            "name": "Texas Christian University (TCU)",
+            "city": "Fort Worth",
+            "state": "Texas",
+            "recruit_questionnaire": "https://college.jumpforward.com/questionnaire.aspx?iid=579&sportid=80"
+          },
+          {
+            "name": "University of Texas",
+            "city": "Austin",
+            "state": "Texas",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/51c93b85c25b",
+              "women": "https://questionnaires.armssoftware.com/0387345873d1"
+            }
+          },
+          {
+            "name": "Texas Tech University",
+            "city": "Lubbock",
+            "state": "Texas",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/39ae0a87f102",
+              "women": "https://questionnaires.armssoftware.com/30fdcd6482a5"
+            }
+          },
+          {
+            "name": "University of Central Florida (UCF)",
+            "city": "Orlando",
+            "state": "Florida",
+            "recruit_questionnaire": {
+              "men": "https://questionnaires.armssoftware.com/92ad9954d6ff",
+              "women": "https://questionnaires.armssoftware.com/7b7cf37646d9"
+            }
+          },
+          {
+            "name": "West Virginia University",
+            "city": "Morgantown",
+            "state": "West Virginia",
+            "recruit_questionnaire": {
+              "women": "https://college.jumpforward.com/questionnaire.aspx?iid=473&sportid=102"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

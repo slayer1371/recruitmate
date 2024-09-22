@@ -2,8 +2,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import "./cmc.css";
+import "../data/images.json"
 
-const CenterModeCarousel = () => {
+const CenterModeCarousel = (props) => {
   const settings = {
     className: "slider variable-width center",
     dots: true,
@@ -22,7 +23,7 @@ const CenterModeCarousel = () => {
         <h4 style={{width: "50%", marginLeft:"5%"}}>THE RECRUITMATE FAMILY</h4>
       <Slider {...settings}>
         <div style={{width: "470px"}}>
-          <img src="src/images/car_img1.jpg" height={"500px"} alt="Slide 1" />
+          <img src={"src/images/car_img1.jpg"} height={"500px"} alt="Slide 1" />
         </div>
         <div style={{width: "478px"}}>
           <img src="src/images/car_img2.jpg"  height={"500px"} alt="Slide 2" />
