@@ -8,14 +8,43 @@
         {
             "id": 2,
             "name": "image2.jpg",
-            "url": "http://example.com/images/image2.jpg",
-            "description": "A description of image 2"
+            "url": "src/images/car_img2.jpg"
         },
         {
             "id": 3,
             "name": "image3.jpg",
-            "url": "http://example.com/images/image3.jpg",
-            "description": "A description of image 3"
+            "url": "src/images/car_img3.jpg"
+        }
+        ,
+        {
+            "id": 4,
+            "name": "image4.jpg",
+            "url": "src/images/car_img4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "image5.jpg",
+            "url": "src/images/car_img5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "image6.jpg",
+            "url": "src/images/car_img6.webp"
+        },
+        {
+            "id": 7,
+            "name": "image7.jpg",
+            "url": "src/images/car_img7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "image8.jpg",
+            "url": "src/images/car_img8.jpg"
+        },
+        {
+            "id": 9,
+            "name": "image9.jpg",
+            "url": "src/images/car_img9.jpg"
         }
     ]
 }

@@ -6,6 +6,7 @@ function Resources(){
     return <div>
             <NavBar />
             <Pdf conferences={conferenceData.conferences} />
+            
         </div>
 }
 export default Resources;

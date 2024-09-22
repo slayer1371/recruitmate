@@ -1,12 +1,13 @@
 import NavBar from "../components/NavBar";
 import "./about.css";
 import CenterModeCarousel from "../components/CenterModeCarousel";
+import imagedata from "../data/images.json";
 
 export default function About() {
   return (
     <>
       <NavBar />
-      <CenterModeCarousel />
+      <CenterModeCarousel images = {imagedata.images}/>
       <div className="box1">
         <h3>OUR STORY</h3>
         <p>
