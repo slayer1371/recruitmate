@@ -1,0 +1,112 @@
+.adidas-navbar {
+    padding: 10px 20px;
+    color: #fff;
+    width: 80%; /* Set width to a percentage or a fixed value */
+    margin: 0 auto; /* Center the navbar */
+}
+
+.bg-light{
+    --bs-bg-opacity : 0 !important;
+}
+
+.adidas-navbar {
+    padding: 10px 20px;
+}
+
+.search-form input {
+    width: auto; 
+    max-width: 250px; 
+}
+
+.shift-left {
+    margin-left: -100px; 
+}
+
+/* Apply the hover effect to all nav-link elements */
+.nav-link {
+    text-transform: uppercase;
+    margin: 0 10px;
+    position: relative; /* Required for positioning the pseudo-element */
+    text-decoration: none; /* No default underline */
+    color: black; /* Default color */
+    transition: transform 0.4s ease, background-color 0.3s ease; /* Smooth transitions for both transform and background color */
+    transition: color 0.3s ease; /* Smooth transition for color */
+    transform: scale(1); /* Ensure starting transform is neutral */
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    left: 0;
+    bottom: -10px; /* Position the underline just below the text */
+    background-color: cornflowerblue; /* Color of the underline */
+    transition: width 0.3s ease-in-out; /* Animate the width */
+}
+
+/* Hover effect for all nav-links */
+.nav-link:hover {
+    background-color: lightgray; /* Change background on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.nav-link:hover::after {
+    width: 100%; /* Expand the underline on hover */
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative; /* Ensures the dropdown menu is positioned relative to its container */
+    display: inline-block; /* Keep the dropdown button inline */
+
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    display: none; /* Initially hidden */
+    position: absolute; /* Position it relative to the dropdown container */
+    top: 100%; /* Position it directly below the button */
+    left: 4%;
+    padding-right: 30%;
+    background-color: white; /* Customize as needed */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visibility */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Show the dropdown menu when hovering over the button or the menu */
+.dropdown:hover .dropdown-menu,
+.dropdown .dropdown-toggle.btn:hover + .dropdown-menu {
+    display: block; /* Make the dropdown visible */
+}
+
+/* Dropdown button hover effects */
+.dropdown-toggle.btn {
+    margin: 0 10px;
+    transition: transform 0.4s ease, background-color 0.3s ease; /* Ensure smooth transitions */
+}
+
+.dropdown-toggle.btn:active{
+    color:black;
+}
+
+.dropdown-toggle.btn:hover,.dropdown-toggle.btn:focus {
+    background-color: lightgray;
+    transform: scale(1.05); /* Reduced scale to prevent disappearance */
+    border-radius: 0;
+    color: black;
+    border: none;
+}
+
+/* Dropdown menu item styles */
+.dropdown-menu a {
+    padding: 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: lightgray;
+}

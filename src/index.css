@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "adihausdin";
+    src:url("./fonts/adihausdin_regular.otf");
+}
+
+body{
+    font-family:  Helvetica, sans-serif;
+}

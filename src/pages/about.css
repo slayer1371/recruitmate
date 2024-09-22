@@ -1,0 +1,16 @@
+.box1{
+    width: 50%;
+    margin: auto;
+} 
+.box1 p {
+    margin :2% 0 2% 0;
+}
+
+.founder{
+    margin: 0 15% 0 20%;
+    display: flex;
+}
+.founder img{
+    border-radius: 100%;
+    margin-left: 3%;
+}
