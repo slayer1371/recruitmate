@@ -24,10 +24,10 @@ const NavBar = () => {
             <div className="dropdown">
               <button className="dropdown-toggle btn">RESOURCES</button>
               <div className="dropdown-menu">
-                <a href="/resources">Track and Field Recruiting Resources</a>
-                <a href="#">Coach Contacts and Recruit Questionnaires</a>
-                <a href="#">Email Templates</a>
-                <a href="#">Track and Field Recruiting Standards</a>
+                <a href="/resource1">Coach Contacts and Recruit Questionnaires</a>
+                <a href="/resource2">Track and Field Recruiting Resources</a>
+                <a href="/resource3">Email Templates</a>
+                <a href="/resource4">Track and Field Recruiting Standards</a>
               </div>
             </div>
           </Nav>
