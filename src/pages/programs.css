@@ -1,0 +1,30 @@
+.intro{
+    display: flex;
+    background-color:cornflowerblue;
+    width: 100%;
+}
+
+.intro img{
+    width: 400px;
+    height: 200px;
+    margin-top: 2%;
+}
+
+.box{
+    width: 70%;
+    margin: auto;
+}
+
+.centre{
+    margin: 5%;
+    justify-content: center;
+}
+
+.book{
+    margin: 4%;
+}
+
+.bookbtn{
+    border: solid 1px #000;
+    padding: 1%;
+}

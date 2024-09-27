@@ -2,11 +2,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './lander.css';
 import SignUpPopup from './Signup';
 
-const SignUpSection = () => {
+const SignUpSection = () => { 
   return (
-    <div className='box'>
+    <div className='land'>
     <Container fluid className="signup-section">
-      <Row className="align-items-stretch h-100">
+      <Row className="align-items-stretch h-100 row">
         {/* Left Image Section */}
         <Col md={6} className="p-0 d-flex align-items-stretch">
           <img

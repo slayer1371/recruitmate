@@ -7,7 +7,8 @@ export default function About() {
   return (
     <>
       <NavBar />
-      <CenterModeCarousel images = {imagedata.images}/>
+      <CenterModeCarousel images = {imagedata.images} />
+
       <div className="box1">
         <h3>OUR STORY</h3>
         <p>

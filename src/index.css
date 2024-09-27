@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: "adihausdin";
     src:url("./fonts/adihausdin_regular.otf");
