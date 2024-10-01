@@ -1,23 +1,32 @@
-import { useState } from 'react';
-import emailjs from 'emailjs-com'; // Import EmailJS
-import "./signup.css"; // Assuming you are adding styles in signup.css
+import { useState } from "react";
+import emailjs from "emailjs-com";
+import "./signup.css";
+import axios from "axios";
 
 const SignUpPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    parent_name: '',
-    parent_no: '',
-    parent_email: '',
-    grad: '',
-    event: ''
+    name: "",
+    email: "",
+    parent_name: "",
+    parent_no: "",
+    parent_email: "",
+    grad: "",
+    event: "",
+    password: "", // Added password field
   });
-  const [errorMessage, setErrorMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
+  const [isSuccessOpen, setIsSuccessOpen] = useState(false); // State for success popup
 
-  // Function to toggle the popup
+  // Function to toggle the signup popup
   const togglePopup = () => {
     setIsOpen(!isOpen);
+  };
+
+  // Function to toggle the success popup
+  const toggleSuccessPopup = () => {
+    setIsSuccessOpen(!isSuccessOpen);
   };
 
   // Handle form input changes
@@ -30,13 +39,13 @@ const SignUpPopup = () => {
   };
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     // EmailJS service parameters
-    const serviceId = 'service_5fk7nlk'; // Replace with your EmailJS service ID
-    const templateId = 'template_024wsdk'; // Replace with your EmailJS template ID
-    const userId = '28FG6B0v2k7ADJ2Vu'; // Replace with your EmailJS user ID
+    const serviceId = "service_5fk7nlk"; // Replace with your EmailJS service ID
+    const templateId = "template_024wsdk"; // Replace with your EmailJS template ID
+    const userId = "28FG6B0v2k7ADJ2Vu"; // Replace with your EmailJS user ID
     const templateParams = {
       user_name: formData.name,
       user_email: formData.email,
@@ -47,18 +56,34 @@ const SignUpPopup = () => {
       event: formData.event,
     };
 
-    emailjs
-      .send(serviceId, templateId, templateParams, userId)
-      .then(
-        () => {
-          console.log('SUCCESS!');
-          setIsOpen(false); // Close popup after successful submission
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-          setErrorMessage('Failed to send email. Please try again.');
-        }
+    try {
+      // Send data to your backend API
+      await axios.post("http://localhost:8080/api/auth/signup", {
+        name: formData.name,
+        email: formData.email,
+        password: formData.password, // Send password to backend
+        parent_name: formData.parent_name,
+        parent_no: formData.parent_no,
+        parent_email: formData.parent_email,
+        grad: formData.grad,
+        event: formData.event,
+      });
+
+      // Send email through EmailJS
+      await emailjs.send(serviceId, templateId, templateParams, userId);
+
+      // On success, show success message and close signup popup
+      setSuccessMessage(
+        "Thank You for signing up with recruitmate ! We're thrilled to have you join our community. Someone from our team will reach out to you shortly regarding the next steps"
       );
+      setIsSuccessOpen(true); // Open success popup
+      setIsOpen(false); // Close signup popup
+      setErrorMessage(""); // Clear any previous error messages
+    } catch (error) {
+      console.error("Signup error:", error); // Log the error
+      setErrorMessage("Failed to sign up. Please try again.");
+      setSuccessMessage(""); // Clear any previous success messages
+    }
   };
 
   return (
@@ -131,11 +156,33 @@ const SignUpPopup = () => {
                 placeholder="Event"
                 required
               />
+              <input
+                type="password" // Password input type
+                name="password"
+                value={formData.password}
+                onChange={handleChange}
+                placeholder="Password"
+                required
+              />
               <button type="submit" className="submit-btn">
                 Submit
               </button>
               {errorMessage && <p className="error-message">{errorMessage}</p>}
             </form>
+          </div>
+        </div>
+      )}
+
+      {/* Success Popup */}
+      {isSuccessOpen && (
+        <div className="popup-overlay" onClick={toggleSuccessPopup}>
+          <div className="popup-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-popup-btn" onClick={toggleSuccessPopup}>
+              &times;
+            </button>
+            <h2>Success!</h2>
+            <p>{successMessage}</p>
+            <button onClick={toggleSuccessPopup}>Close</button>
           </div>
         </div>
       )}
