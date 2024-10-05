@@ -2,7 +2,7 @@ import { useState } from "react"; // Import useState to manage component state
 import NavBar from "../components/NavBar";
 import Calendar from "../components/page";
 import "./programs.css";
-import { Copyright } from "lucide-react";
+import Copyright from "../components/cr.jsx";
 
 
 export default function Programs() {
@@ -42,13 +42,18 @@ export default function Programs() {
               navigate the recruiting process, and increase their chances of
               securing scholarships.
             </p>
-          </div>
-        </div>
+          </div> 
+        </div><br />
         <h2>BOOK</h2>
+        <h2 style={{margin:"2% 4%"}}>Collegiate Prep Program</h2>
         <div className="book">
-          <h2>Collegiate Prep Program</h2>
+        <div className="book1">
+ 
+          <div>
+
           <h4>Personalized Recruiting Session (8-Week Bundle)</h4>
           <p>35 mins | $350</p>
+          </div>
           <button
             className="bookbtn"
             type="button"
@@ -56,12 +61,17 @@ export default function Programs() {
           >
             BOOK
           </button>
+          </div>
 
           {/* Render the first Calendar component conditionally */}
           {isFirstCalendarVisible && <Calendar price={price}/>}
 
+
+          <div className="book2">
+          <div>
           <h4>Personalized Recruiting Session (One-Time)</h4>
           <p>35 mins | $50</p>
+          </div>
           <button
             type="button"
             onClick={handleSecondBookClick}
@@ -69,14 +79,18 @@ export default function Programs() {
           >
             BOOK
           </button>
+          </div>
 
           {/* Render the second Calendar component conditionally */}
           {isSecondCalendarVisible && <Calendar price={price}/>}
           <hr />
           <h2>Free Intro Consultation</h2>
+          <div className="book3">
+          <div>
           <h4>Personalized Recruiting Session (One-Time)</h4>
           <p>15 mins | Free</p>
           <p>Get more information and ask questions!</p>
+          </div>
           <button
             type="button"
             onClick={handleSecondBookClick}
@@ -84,9 +98,10 @@ export default function Programs() {
           >
             BOOK
           </button>
+          </div>
         </div>
-        <Copyright />
       </div>
+      <Copyright />
     </>
   );
 }

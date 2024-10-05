@@ -18,7 +18,6 @@ const CenterModeCarousel = () => {
 
   return (
     <div style={{padding: "0px"}} className="slider-container">
-      <h2> Center Mode Carousel </h2>
       <Slider {...settings}>
         <div style={{width: "470px"}}>
           <img src="src/images/car_img1.jpg" height={"500px"} alt="Slide 1" />

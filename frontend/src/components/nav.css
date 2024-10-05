@@ -1,5 +1,4 @@
 .adidas-navbar {
-    padding: 10px 20px;
     color: #fff;
     width: 80%; /* Set width to a percentage or a fixed value */
     margin: 0 auto; /* Center the navbar */
@@ -9,26 +8,16 @@
     --bs-bg-opacity : 0 !important;
 }
 
-.adidas-navbar {
-    padding: 10px 20px;
-}
-
-.search-form input {
-    width: auto; 
-    max-width: 250px; 
-}
-
 .shift-left {
     margin-left: -100px; 
 }
 
-/* Apply the hover effect to all nav-link elements */
 .nav-link {
     text-transform: uppercase;
     margin: 0 10px;
     position: relative; /* Required for positioning the pseudo-element */
     text-decoration: none; /* No default underline */
-    color: black; /* Default color */
+    color: black; /* De`lt color */
     transition: transform 0.4s ease, background-color 0.3s ease; /* Smooth transitions for both transform and background color */
     transition: color 0.3s ease; /* Smooth transition for color */
     transform: scale(1); /* Ensure starting transform is neutral */

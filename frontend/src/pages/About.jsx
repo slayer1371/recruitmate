@@ -2,6 +2,10 @@ import NavBar from "../components/NavBar";
 import "./about.css";
 import CenterModeCarousel from "../components/CenterModeCarousel";
 import imagedata from "../data/images.json";
+import Copyright from "../components/cr.jsx";
+import { Ytvideo } from "../components/ytvideo.jsx";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faInstagram } from '../@fortawesome/free-brands-svg-icons';
 
 export default function About() {
   return (
@@ -42,9 +46,9 @@ export default function About() {
           advice tailored to their specific needs.
         </p>
       </div>
-      <h4 style={{margin: "3% 15% 0 20%"}}>The Founder</h4>
+      <h4 style={{margin: "3% 15% -2% 15%"}}>The Founder</h4>
 
-      <div className="founder">
+      <div className="founder"> 
         <p><br /><br />
           Joey Zayszly, the founder of RecruitMate, has a deep and personal
           understanding of the college recruiting process. As a track athlete,
@@ -63,6 +67,20 @@ export default function About() {
         </p>
         <img src="https://img1.wsimg.com/isteam/ip/8b8fcb7f-dd76-4fdf-b62a-52d8cc7e8443/Screenshot%202024-07-05%20at%202.00.00%E2%80%AFPM.png/:/cr=t:0%25,l:0%25,w:100%25,h:93.07%25/rs=w:800,h:800,cg:true" width={"300px"} height={"300px"}/>
       </div>
+      <div className="parentyt">
+      <div className="yt">
+        <Ytvideo /><br />
+        <h5>Connect With Us</h5><br />
+        <div className="images">
+          <a href="https://www.facebook.com/people/RecruitMate/61562255909402/" target="_blank"><img src = "/src/images/facebook'.png" /></a>
+          <a href = ""><img src = "/src/images/insta.png" /></a>
+          <a href=""><img src = "/src/images/tiktok.png" /></a>
+          <a href=""><img src = "/src/images/x.png" /></a>
+          
+        </div>
+      </div>
+      </div>
+      <Copyright />
     </>
   );
 }

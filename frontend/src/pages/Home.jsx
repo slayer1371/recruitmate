@@ -1,12 +1,16 @@
 import NavBar from "../components/NavBar";
 import Lander from "../components/Lander";
 import "./home.css";
-import Copyright from "../components/COPYRIGHT.JSX";
+import Copyright from "../components/cr.jsx";
+import { useState } from "react";
+import ComparisonTable from "../components/ComparisonTable";
+import SignUpPopup from "../components/Signup";
 
 function Home() {
+  const [username, setUsername] = useState(null); // State for username
   return (
     <>
-      <NavBar />
+      <NavBar username={username}/>
       <Lander />
       <div className="one">
         <h4>RUN FOR A CAUSE</h4>
@@ -88,7 +92,16 @@ function Home() {
         </div><br />
       <div>
         <h4>WHAT MAKES US DIFFERENT</h4>
-
+        <ComparisonTable />
+      </div>
+      <div className="last-btn">
+      <h3>SIGN UP TODAY !!</h3>
+      <SignUpPopup />
+      <br />
+      <a href="mailto:info@recruitmate.app">
+    <h6>info@recruitmate.app</h6>
+</a>
+      <h6>(857) 600-0791</h6>
       </div>
       </div>
       <Copyright />

@@ -65,3 +65,8 @@
 .programs, .resources{
     margin: 5% 15% 1% 10%;
 }
+
+.last-btn{
+    margin: 5% 0 5% 0;
+    text-align: center;
+}

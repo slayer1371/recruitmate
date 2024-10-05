@@ -1,5 +1,7 @@
 import NavBar from "../../components/NavBar";
 import "./res3.css";
+import Copyright from "../../components/cr";
+
 
 function Resource3() {
   return (
@@ -156,6 +158,7 @@ and ensure it sounds genuine and personalized.
         </p>
       </div>
     </div>
+    <Copyright />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import NavBar from "../../components/NavBar";
 import "./res2.css";
+import Copyright from "../../components/cr";
 
 function Resource2() {
   return (
@@ -113,6 +114,7 @@ function Resource2() {
         <img src="src/images/page1-res2.png" width={"80%"}/>
         <img src="src/images/page2-res2.png" width={"80%"}/>
       </div>
+      <Copyright />
     </div>
   );
 }

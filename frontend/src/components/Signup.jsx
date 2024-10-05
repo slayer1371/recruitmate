@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react"; 
 import emailjs from "emailjs-com";
 import "./signup.css";
 import axios from "axios";
@@ -85,7 +85,7 @@ const SignUpPopup = () => {
       setSuccessMessage(""); // Clear any previous success messages
     }
   };
-
+ 
   return (
     <div className="signup-popup">
       <button className="open-popup-btn" onClick={togglePopup}>

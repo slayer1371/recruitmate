@@ -7,10 +7,27 @@
 }
 
 .founder{
-    margin: 0 15% 0 20%;
+    margin: 0 15% 2% 15%;
     display: flex;
 }
 .founder img{
     border-radius: 100%;
     margin-left: 3%;
+}
+.yt{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.parentyt{
+    width: 100%;
+    background-color: #017BB5;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
 }

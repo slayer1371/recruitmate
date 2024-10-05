@@ -21,20 +21,20 @@ const AvailableHours: React.FC<AvailableHoursProps> = memo(({ freeTimes, onTimeS
   };
 
   return (
-    <div className="flex flex-col items-center gap-2 mt-4 p-4">
+    <div className="flex flex-col items-left p-4">
       <span>
         Available times:{" "}
         <span className="font-semibold text-orange-950">
           {freeTimes.length}
         </span>
       </span>
-      <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 text-md gap-2">
+      <div className="grid grid-cols-4 mt-2 sm:grid-cols-5 md:grid-cols-8 text-md gap-2">
         {freeTimes.map((hour, hourIdx) => (
           <div key={hourIdx}>
             <button
               type="button"
               className={cn(
-                "bg-green-200 rounded-lg px-2 text-gray-800 relative hover:border hover:border-green-400 w-[60px] h-[26px]",
+                "bg-green-200 lg px-1 text-gray-800 relative hover:border hover:border-green-400 w-[110px] h-[40px]",
                 selectedTime && isSameMinute(selectedTime, hour) && "bg-green-400 text-gray-800"
               )}
               onClick={() => handleTimeClick(hour)} // Update here to handle time click

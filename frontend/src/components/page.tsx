@@ -114,9 +114,9 @@ export default function Home({price}) {
   }, [currentMonth]);
 
   return (
-    <div className="flex flex-col min-h-screen justify-center items-center gap-2 bg-stone-50">
+    <div className=" flex-col min-h-screen justify-center items-center gap-2">
       {/* calendar implementation */}
-      <div className="flex flex-col gap-2 h-[450px] w-[380px] mt-12">
+      <div className=" flex-col gap-2 h-[400px] w-[380px] mt-12">
         {/* calendar header */}
         <div className="grid grid-cols-3">
           <button

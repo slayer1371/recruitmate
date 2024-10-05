@@ -2,7 +2,7 @@
     display: flex;
     background-color:cornflowerblue;
     width: 100%;
-}
+} 
 
 .intro img{
     width: 400px;
@@ -21,10 +21,29 @@
 }
 
 .book{
-    margin: 4%;
+    margin: 2% 4%;
 }
 
-.bookbtn{
+.book1, .book2, .book3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.book1 button, .book2 button{
+    background-color: white;
+    margin: 30px 50px 30px 0;
+    padding: 10px 20px 10px 20px;
     border: solid 1px #000;
-    padding: 1%;
+}
+.book1 button:hover, .book2 button:hover, .book3 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.book3 button{
+    background-color: white;
+    margin: 40px 50px 40px 0;
+    padding: 10px 20px 10px 20px;
+    border: solid 1px #000;
 }
