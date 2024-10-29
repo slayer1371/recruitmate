@@ -4,30 +4,35 @@
         "name": "American Athletic Conference (AAC)",
         "schools": [
           {
+            "img":"https://imgs.search.brave.com/V1ICpLSsYWqk7lnzEAjuWwtVC1d9PU4hpuEhsu0JwdQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29tbW9uYXBwLm9y/Zy9zdGF0aWMvZGE2/Mjg2OTlhNDAwNjMy/MjRhOWJkODM3MGMz/NjRmMTMvdW5pdmVy/c2l0eS1ub3J0aC1j/YXJvbGluYS1jaGFy/bG90dGVfOTU5LnBu/Zw",
             "name": "Charlotte",
             "city": "Charlotte",
             "state": "North Carolina",
             "recruit_questionnaire": "https://charlotte49ers.com/sb_output.aspx?form=3"
           },
           {
+            "img":"https://imgs.search.brave.com/aIuS1e9A-ksarX43JOvIRXb9ESR9B-dJQNE6W-q-t9I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MDUvYTQvZmQvNmMv/ZWFzdC1jYXJvbGlu/YS11bml2ZXJzaXR5/LmpwZw",
             "name": "East Carolina University",
             "city": "Greenville",
             "state": "North Carolina",
             "recruit_questionnaire": "https://ecupirates.com/documents/2016/8/1/Recruiting_Questionnaire22.pdf"
           },
           {
+            "img":"https://imgs.search.brave.com/U2rDWaSwWo_gUEh-9PNjEzGeON6qDy_mGYfXN7bQabs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YnJpdGFubmljYS5j/b20vMzcvMTIxNzM3/LTA1MC0zNzAxMUUx/Ri9DaGFybGVzLUUt/U2NobWlkdC1CaW9t/ZWRpY2FsLVNjaWVu/Y2UtQ2VudGVyLUZs/b3JpZGEuanBnP3c9/NDAwJmg9MzAwJmM9/Y3JvcA",
             "name": "Florida Atlantic University",
             "city": "Boca Raton",
             "state": "Florida",
             "recruit_questionnaire": "No"
           },
           {
+            "img":"https://imgs.search.brave.com/FquuPSz7V-CNhJUuw0K7qhHovRFYDZyAiKhzFE6UVyo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWVtcGhpcy5lZHUv/X3VtX3Jlc291cmNl/cy9pbWcvdV9vZl9t/X2RqaV8wNjUwLWVu/aGFuY2VkLmpwZw",
             "name": "University of Memphis",
             "city": "Memphis",
             "state": "Tennessee",
             "recruit_questionnaire": "https://questionnaires.armssoftware.com/7dde09e75316"
           },
           {
+            "img":"https://imgs.search.brave.com/FlhF3iU2DIkyJx_2m-DjlgBUO4Kkmosk1IYXHoE8znw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YnJpdGFubmljYS5j/b20vNzkvMTE3ODc5/LTAwNC1CMjk4QTEw/Ny9IaWdoLVBsYWNl/cy1zdGF0dWUtY2Ft/cHVzLUdlcmFsZC1C/YWxjaWFyLVVuaXZl/cnNpdHkuanBnP3c9/NDAwJmg9MzAwJmM9/Y3JvcA",
             "name": "University of North Texas",
             "city": "Denton",
             "state": "Texas",
@@ -90,6 +95,7 @@
         "name": "Atlantic Coast Conference (ACC)",
         "schools": [
           {
+            "img":"https://imgs.search.brave.com/rtcjbDuOopvlNYdh2fiXgKZVpLAgXAQscKl8BrP-MfA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDc1/MDA0NTYwL3Bob3Rv/L2Jvc3Rvbi1jb2xs/ZWdlLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1FSk5RT0Vt/QldVUTBUNW8zTDIt/M3FTS2dSVHVvY3Yt/WG1QN1pIdWJNeVBj/PQ",
             "name": "Boston College",
             "city": "Chestnut Hill",
             "state": "Massachusetts",
@@ -99,30 +105,35 @@
             }
           },
           {
+            "img":"https://imgs.search.brave.com/NIkAekM-Sah3Ypw3o3i4LtRsBbZxQGcY7u2rKDvh7x0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA4LzAyLzU5Lzkx/LzM2MF9GXzgwMjU5/OTE1NV9aNWZTRmoy/R2xCNndDRzlZRzVB/Q1dFN3hGNTZOOVlE/UC5qcGc",
             "name": "University of California",
             "city": "Berkeley",
             "state": "California",
             "recruit_questionnaire": "https://college.jumpforward.com/questionnaire.aspx?iid=350&sportid=56"
           },
           {
+            "img":"https://imgs.search.brave.com/674f21WpuLFkQYygEUGc-CDeMpWd-VpTL3D2MY94i2s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oZW1z/LWFzc2V0cy5wcmlu/Y2V0b25yZXZpZXcu/Y29tL2ltYWdlcy9w/cm9maWxlcGljcy8x/MDIyODg5LzEuanBn",
             "name": "Clemson University",
             "city": "Clemson",
             "state": "South Carolina",
             "recruit_questionnaire": "https://questionnaires.armssoftware.com/6a882f234e92?DB_OEM_ID=28500"
           },
           {
+            "img":"https://imgs.search.brave.com/HFDu3Uc6SgT5UAkeFma-YlKJWeHJCPZm1uwqsfL-WMk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODEx/NTE4ODc4L3Bob3Rv/L2R1a2UtY2hhcGVs/LWF0LWR1a2UtdW5p/dmVyc2l0eS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9RzZC/QzNhQ0JtQ1FjVTg4/MnBENURaNWUxd0FQ/bGJfbDJfRUlaN0RM/eTVhMD0",
             "name": "Duke University",
             "city": "Durham",
             "state": "North Carolina",
             "recruit_questionnaire": "https://questionnaires.armssoftware.com/47e14e1c94d6?path=tf"
           },
           {
+            "img":"https://imgs.search.brave.com/a0qp_bY4rHiXrOLZPAivI0yo-0MJvnJg_XGoSpZTzDc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU0/MjM5MjU4L3Bob3Rv/L2Zsb3JpZGEtc3Rh/dGUtdW5pdmVyc2l0/eS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9V3RYckMxWVhh/aTFqZlFxVW85N0RN/T1JZT19Zc2NLVng2/RmpBN05QMm9Xcz0",
             "name": "Florida State University",
             "city": "Tallahassee",
             "state": "Florida",
             "recruit_questionnaire": "No"
           },
           {
+            "img":"https://imgs.search.brave.com/XB5syo9FkN9z03SvPZ8fs4-xdscmomtBHikTDGn5G98/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDU4/NTU0ODM1L3Bob3Rv/L2dlb3JnaWEtdGVj/aC1zdHVkZW50cy5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/T2dlcjJudjhaWF8w/NnI4SHBpQTNQN0VB/UkF5UDBIMWctNHRw/amZtOHEwST0",
             "name": "Georgia Tech",
             "city": "Atlanta",
             "state": "Georgia",
@@ -218,12 +229,14 @@
         "name": "Big 12 Conference",
         "schools": [
           {
+            "img":"https://imgs.search.brave.com/f1XNc5QqIm_XH_g-Q5VwykCuk7y8vSGc2X5s-iTGaWk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YnJpdGFubmljYS5j/b20vMTYvMTE3NTE2/LTA1MC02NzUzN0Iz/RC9QYXQtTmVmZi1I/YWxsLUJheWxvci1V/bml2ZXJzaXR5LVRl/eGFzLVdhY28uanBn/P3c9NDAwJmg9MzAw/JmM9Y3JvcA",
             "name": "Baylor University",
             "city": "Waco",
             "state": "Texas",
             "recruit_questionnaire": "https://questionnaire.acsathletics.com/Questionnaire/Questionnaire.aspx?q=1308&s=1356&o=6"
           },
           {
+            "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Smoot_Building.jpg/440px-Smoot_Building.jpg",
             "name": "Brigham Young University (BYU)",
             "city": "Provo",
             "state": "Utah",
@@ -233,6 +246,7 @@
             }
           },
           {
+            "img":"https://www.uc.edu/about/maps/jcr:content/image.img.cq5dam.thumbnail.500.500.jpg/1693332158004.jpg",
             "name": "University of Cincinnati",
             "city": "Cincinnati",
             "state": "Ohio",
@@ -242,6 +256,7 @@
             }
           },
           {
+            "img":"https://imgs.search.brave.com/2Xs-a_1EjeTRDG2g5kpoHzdQSD-dVT7Sqjo4aEH-lkA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE1/NzE5MzA1MS9waG90/by91bml2ZXJzaXR5/LW9mLWhvdXN0b24u/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVdHTGdBYkhVQ0VC/UWcwSGFWeHpvdHda/OTZnMnNRbVcyRE84/RWtzbWNtMUU9",
             "name": "University of Houston",
             "city": "Houston",
             "state": "Texas",

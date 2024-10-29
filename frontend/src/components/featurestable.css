@@ -1,26 +1,27 @@
 .comparison-table {
-  width: 80%;
+  width: 90%;
   border-collapse: collapse;
   margin: 2% auto;
-  font-size: 1rem;
 }
 
 .comparison-table th,
 .comparison-table td {
   padding: 25px 20px;
   text-align: center;
-  /* Remove border by setting to none */
   border: none;
-}
+
+} 
 
 .comparison-table th {
-  background-color: #017BB5;
+  background-color: #526ed0 !important;
   color: white;
   font-weight: bold;
+  font-size: 1.06rem;
 }
 
 .comparison-table td {
   background-color: #f9f9f9;
+  font-size: 1rem;
 }
 
 .comparison-table tr:nth-child(even) td {
@@ -54,7 +55,7 @@
   display: inline-block;
   margin-right: 8px;
   vertical-align: middle;
-  color: #6b4db2;
+  color: #484cb0;
   font-size: 1.2rem;
 }
 

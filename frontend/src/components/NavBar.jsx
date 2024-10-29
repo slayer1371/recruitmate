@@ -3,6 +3,7 @@ import { FaUser, FaShoppingCart } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 import { useUser } from './UserContext';
 import "./nav.css";
+import rmlogo from "../images/rmf.png";
 
 
 const NavBar = () => {
@@ -20,7 +21,7 @@ const NavBar = () => {
     <Navbar bg="light" expand="lg" className="adidas-navbar">
       <Navbar.Brand href="#home">
         <img
-          src="https://img1.wsimg.com/isteam/ip/8b8fcb7f-dd76-4fdf-b62a-52d8cc7e8443/Screenshot%202024-07-04%20at%201.51.23%E2%80%AFPM.png/:/rs=w:452,h:334,cg=true,m/cr=w:452,h:334/qt=q:95"
+          src={rmlogo}
           alt="Adidas Logo"
           style={{ width: "80px" }}
         />
@@ -28,7 +29,7 @@ const NavBar = () => {
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <div className="d-flex justify-content-center w-100">
+        <div className="d-flex justify-content-center w-100"> 
           <Nav className="text-center">
             <Nav.Link href="/">HOME</Nav.Link>
             <Nav.Link href="/about">ABOUT</Nav.Link>

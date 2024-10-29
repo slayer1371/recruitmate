@@ -14,7 +14,7 @@
 .text {
     justify-content: center;
     align-items: baseline;
-    margin: 10% 10% 0 3%;
+    margin: 5% 10% 0 3%;
 
 }
 .ow-break{
@@ -25,41 +25,48 @@
     margin: 3% 20% 4% 16%;
 }
 
-.card {
-    width: 25%;
-    background: rgba(217, 217, 217, 0.58);
+.homecard {
+    width: 28%;
     border: 1px solid white;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);
     text-align: center;
     transition: all 0.5s;
-    display: flex;
     align-items: center;
     justify-content: center;
     user-select: none;
     font-weight: bolder;
-    color: black;
+    color: #33425b !important;
+    background-color: #fffbe3 !important;
     margin : 1% 2% 0 2%;
     padding: 2% 3% 2% 3%;
   }
   
-  .card:hover {
+  .homecard:hover { 
     border: 1px solid black;
     transform: scale(1.05);
   }
   
-  .card:active {
+  .homecard:active {
     transform: scale(0.95) rotateZ(1.7deg);
   }
 
-.card h3{
+.homecard h3{
     padding-bottom: 5%;
+    color: #33425b !important;
+    background-color: #fffbe3 !important;
 }
 
-.flex{
+.homecard p{
+    color: #33425b !important;
+    background-color: #fffbe3 !important;
+}
+
+.flexbox{
     display: flex;
     justify-content: center;
     margin-top: 2%;
+    flex-direction: row;
 }
 
 .programs, .resources{
@@ -67,6 +74,23 @@
 }
 
 .last-btn{
-    margin: 5% 0 5% 0;
+    margin: 5% 5% 5% 0;
     text-align: center;
 }
+
+.programs a{
+    text-decoration: none;
+}
+.programs button, .resources button{
+    padding: 7px 15px;
+    border: solid 2px white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.programs button:hover, .resources button:hover{
+    background-color:#fffbe3 !important;
+    color: black !important;
+    border: solid 2px black;
+    border-radius: 4%;
+  }

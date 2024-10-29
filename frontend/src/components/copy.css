@@ -1,5 +1,6 @@
-.foot {
+.foot h6 {
     text-align: center;
-    padding: 5% 0 5% 0 ;
-    background-color: aquamarine;
+    padding: 5% 0 5% 3% ;
+    background-color: aquamarine !important;
+    color: black !important;
 }

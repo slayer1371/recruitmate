@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "adihausdin";
-    src:url("./fonts/adihausdin_regular.otf");
+
+/* implement dark theme throughout the website */
+* {
+    background-color: #33425b !important;
+    color: #fffbe3 !important;
 }

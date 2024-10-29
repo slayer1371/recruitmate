@@ -1,5 +1,5 @@
 import NavBar from "../../components/NavBar";
-import Pdf from "../../components/Pdf";
+import SchoolList from "../../components/SchoolList";
 import conferenceData from "../../data/conferenceData.json";
 import Copyright from "../../components/cr";
 
@@ -7,7 +7,7 @@ import Copyright from "../../components/cr";
 function Resources1(){
     return <div>
             <NavBar />
-            <Pdf conferences={conferenceData.conferences} />
+            <SchoolList conferences={conferenceData.conferences} />
             <Copyright />
         </div>
 }

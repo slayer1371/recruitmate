@@ -47,7 +47,7 @@ const CenterModeCarousel = () => {
           <img src="src/images/car_img9.jpg"  height={"500px"} alt="Slide 9" />
         </div>
       </Slider>
-    </div>
+    </div> 
   );
 };
 

@@ -10,12 +10,12 @@ function Home() {
   const [username, setUsername] = useState(null); // State for username
   return (
     <>
-      <NavBar username={username}/>
-      <Lander />
+      <NavBar username={username} />
+      <Lander /> 
       <div className="one">
         <h4>RUN FOR A CAUSE</h4>
         <div className="text-image">
-          <img src="src/images/run_for_cause.png" width={"40%"} />
+          <img src="src/images/run_for_cause.png" width={"45%"} />
           <div className="text">
             <h4>Our Mission</h4>
             <p className="ow-break">
@@ -47,62 +47,95 @@ function Home() {
           </p>
         </div>
         <h4>YOUR CHILD&apos;S PATH TO SUCCESS</h4>
-        <div className="flex">
-        <div className="card">
-          <h3>Connect with <br />Current Athletes</h3>
-          <p>
-            Your student-athlete will be paired with a college athlete who will
-            serve as their mentor. They will receive guidance from someone who
-            understands what it&apos;s like, offering insights and advice based on
-            their recent successful track and field recruiting process. Our
-            matching process considers your student-athlete&apos;s specific goals,
-            event, and personal preferences, ensuring the best fit.
-          </p>
-        </div>
-        <div className="card">
-          <h3>Personalized <br />Mentorship</h3>
-          <p>
-          Gain valuable insights and advice by asking questions directly to current Division 1 track athletes. Whether your student athlete is curious about training routines, balancing academics and athletics, or navigating the recruiting process, the mentorship from college athletes they will receive can greatly help them achieve their athletic goals and hopefully secure track and field scholarships.
-          </p>
-        </div>
-        <div className="card">
-          <h3>Get <br />Recruited :)</h3>
-          <p>
-          Student-athletes will learn how to effectively connect with college coaches and present themselves as strong candidates for track and field scholarships. They will gain insights on how to craft compelling emails, prepare for coach interactions, and make a memorable impression. This mentorship from college athletes will help them stand out in the competitive track and field recruiting landscape.
-          </p>
-        </div>
+        <div className="flexbox">
+          <div className="homecard">
+            <h3>
+              Connect with <br />
+              Current Athletes
+            </h3>
+            <p>
+              Your student-athlete will be paired with a college athlete who
+              will serve as their mentor. They will receive guidance from
+              someone who understands what it&apos;s like, offering insights and
+              advice based on their recent successful track and field recruiting
+              process. Our matching process considers your
+              student-athlete&apos;s specific goals, event, and personal
+              preferences, ensuring the best fit.
+            </p>
+          </div>
+          <div className="homecard">
+            <h3>
+              Personalized <br />
+              Mentorship
+            </h3>
+            <p>
+              Gain valuable insights and advice by asking questions directly to
+              current Division 1 track athletes. Whether your student athlete is
+              curious about training routines, balancing academics and
+              athletics, or navigating the recruiting process, the mentorship
+              from college athletes they will receive can greatly help them
+              achieve their athletic goals and hopefully secure track and field
+              scholarships.
+            </p>
+          </div>
+          <div className="homecard">
+            <h3>
+              Get <br />
+              Recruited :)
+            </h3>
+            <p>
+              Student-athletes will learn how to effectively connect with
+              college coaches and present themselves as strong candidates for
+              track and field scholarships. They will gain insights on how to
+              craft compelling emails, prepare for coach interactions, and make
+              a memorable impression. This mentorship from college athletes will
+              help them stand out in the competitive track and field recruiting
+              landscape.
+            </p>
+          </div>
         </div>
         <div className="programs">
-        <h4>
-        Our Programs
-        </h4>
-        <p>
-        At RecruitMate, our Collegiate Prep Program is tailored specifically for high school athletes. Athletes work with their mentors to create a recruiting plan and gain insights on securing track and field scholarships. They can meet with their mentor monthly or as needed to stay on track and achieve their goals.
-        </p>
-        <button >LEARN MORE</button>
+          <h4>Our Programs</h4>
+          <p>
+            At RecruitMate, our Collegiate Prep Program is tailored specifically
+            for high school athletes. Athletes work with their mentors to create
+            a recruiting plan and gain insights on securing track and field
+            scholarships. They can meet with their mentor monthly or as needed
+            to stay on track and achieve their goals.
+          </p>
+          <a href="/programs">
+            <button>LEARN MORE</button>
+          </a>
         </div>
         <div className="resources">
-        <h4>
-        Free Recruiting Resources Available
-        </h4>
-        <p>
-        We offer direct access to recruit questionnaires for every D1 school, along with an overview of recruiting rules and calendars for all NCAA divisions. You'll also find easy-to-use email templates to help your student-athlete reach out to coaches, and clear recruiting standards with the marks and performance levels needed to earn track and field scholarships.
-        </p>
-        <button>FREE RESOURCES</button>
-        </div><br />
-      <div>
-        <h4>WHAT MAKES US DIFFERENT</h4>
-        <ComparisonTable />
-      </div>
-      <div className="last-btn">
-      <h3>SIGN UP TODAY !!</h3>
-      <SignUpPopup />
-      <br />
-      <a href="mailto:info@recruitmate.app">
-    <h6>info@recruitmate.app</h6>
-</a>
-      <h6>(857) 600-0791</h6>
-      </div>
+          <h4>Free Recruiting Resources Available</h4>
+          <p>
+            We offer direct access to recruit questionnaires for every D1
+            school, along with an overview of recruiting rules and calendars for
+            all NCAA divisions. You&apos;ll also find easy-to-use email templates to
+            help your student-athlete reach out to coaches, and clear recruiting
+            standards with the marks and performance levels needed to earn track
+            and field scholarships.
+          </p>
+          <a href="/resources1">
+            <button>FREE RESOURCES</button>
+          </a>
+        </div>
+        <br />
+        <br/>
+        <div>
+          <h4>WHAT MAKES US DIFFERENT</h4>
+          <ComparisonTable />
+        </div>
+        <div className="last-btn">
+          <h3>SIGN UP TODAY !!</h3>
+          <SignUpPopup />
+          <br />
+          <a href="mailto:info@recruitmate.app">
+            <h6>info@recruitmate.app</h6>
+          </a>
+          <h6>(857) 600-0791</h6>
+        </div>
       </div>
       <Copyright />
     </>

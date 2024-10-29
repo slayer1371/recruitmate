@@ -1,0 +1,30 @@
+.mainbox{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.blog1, .blog2, .blog3, .blog4, .blog5, .blog6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.blog1 button, .blog2 button, .blog3 button, .blog4 button, .blog5 button, .blog6 button{
+    padding: 10px;
+    font-size: 1rem;
+    color: aquamarine !important;
+}
+
+.blog5{
+    display: flex;
+    flex-direction: row;
+}
+
+.blog5 img{
+    width: 40%;
+    height: 50%;
+    margin-right: 20px;
+}

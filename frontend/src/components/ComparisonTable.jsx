@@ -29,7 +29,7 @@ const ComparisonTable = () => {
       others: 'N',
     },
     {
-      feature: 'Sleep Technology',
+      feature: 'Affordable Pricing',
       rm: 'Y',
       ncsa: 'N',
       others: 'N',

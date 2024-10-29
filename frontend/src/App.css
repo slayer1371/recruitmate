@@ -1,8 +1,6 @@
-@font-face {
-    font-family: "adihausdin";
-    src:url("./fonts/adihausdin_regular.otf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
 body{
-    font-family:  "adihausdin" , Helvetica, sans-serif !important;
+    font-family: 'Playwrite GB S', sans-serif !important;
+    line-height: 1.8 !important;
 }

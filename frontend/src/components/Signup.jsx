@@ -87,7 +87,7 @@ const SignUpPopup = () => {
   };
  
   return (
-    <div className="signup-popup">
+    <div className="signup-popup"> 
       <button className="open-popup-btn" onClick={togglePopup}>
         Sign Up
       </button>

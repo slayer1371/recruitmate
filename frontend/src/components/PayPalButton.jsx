@@ -4,7 +4,7 @@ import "./paypal.css";
 const PayPalButton = ({ price }) => {
   const paypalRef = useRef();
 
-  useEffect(() => {
+  useEffect(() => { //abstract this component. never use useEffect. use custom hook: usePaypal custom hook, embed useeffect in that.
     // Clear the button container before re-rendering to avoid duplicate buttons
     if (paypalRef.current) {
       paypalRef.current.innerHTML = ''; 

@@ -1,7 +1,16 @@
+/* @font-face {
+    font-family: "adihausdin";
+    src:url("../fonts/adihausdin_regular.otf");
+} */
+*{
+    font-size: 0.9rem;
+}
+
 .adidas-navbar {
     color: #fff;
     width: 80%; /* Set width to a percentage or a fixed value */
     margin: 0 auto; /* Center the navbar */
+
 }
 
 .bg-light{
@@ -48,7 +57,6 @@
 .dropdown {
     position: relative; /* Ensures the dropdown menu is positioned relative to its container */
     display: inline-block; /* Keep the dropdown button inline */
-
 }
 
 /* Dropdown menu styles */
@@ -57,10 +65,10 @@
     position: absolute; /* Position it relative to the dropdown container */
     top: 100%; /* Position it directly below the button */
     left: 4%;
-    padding-right: 30%;
-    background-color: white; /* Customize as needed */
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visibility */
     z-index: 1000; /* Ensure it appears above other content */
+    margin: 100px 10px 10px 10px;
+    border: 1px solid #fffbe3 !important;
 }
 
 /* Show the dropdown menu when hovering over the button or the menu */
@@ -71,7 +79,7 @@
 
 /* Dropdown button hover effects */
 .dropdown-toggle.btn {
-    margin: 0 10px;
+    margin: 2px 10px;
     transition: transform 0.4s ease, background-color 0.3s ease; /* Ensure smooth transitions */
 }
 
@@ -80,15 +88,14 @@
 }
 
 .dropdown-toggle.btn:hover,.dropdown-toggle.btn:focus {
-    background-color: lightgray;
     transform: scale(1.05); /* Reduced scale to prevent disappearance */
     border-radius: 0;
-    color: black;
     border: none;
 }
 
 /* Dropdown menu item styles */
 .dropdown-menu a {
+    width: 350px;
     padding: 10px;
     display: block;
     color: black;
@@ -97,5 +104,6 @@
 }
 
 .dropdown-menu a:hover {
-    background-color: lightgray;
+    background-color: #5baaec !important;
+
 }

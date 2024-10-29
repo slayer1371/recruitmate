@@ -1,18 +1,16 @@
 /* Button to open the popup */
 .open-popup-btn {
     padding: 15px 30px;
-    background-color:white;
-    color: black;
-    border: solid 2px #000;
+    border: solid 2px white;
     cursor: pointer;
-    border-radius: 5px;
     font-size: 1.2rem;
-    font-weight: bold;
   }
   
   .open-popup-btn:hover {
-    background-color:black;
-    color: white;
+    background-color:#fffbe3 !important;
+    color: black !important;
+    border: solid 2px black;
+    border-radius: 4%;
   }
   /* Popup Overlay */
   .popup-overlay {

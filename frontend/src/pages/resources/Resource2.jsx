@@ -110,7 +110,7 @@ function Resource2() {
           </li>
         </ul>
       </div>
-      <div className="images">
+      <div className="imageres">
         <img src="src/images/page1-res2.png" width={"80%"}/>
         <img src="src/images/page2-res2.png" width={"80%"}/>
       </div>

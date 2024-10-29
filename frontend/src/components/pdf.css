@@ -1,4 +1,51 @@
-.links{
-    width: 40%;
-    margin:auto;
-}
+/* Container for the grid */
+.grid-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Conference card that wraps school cards */
+  .conference-card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* School card styles */
+  .school-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .school-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* General styling for the text */
+  .grid-container h2, h3 {
+    margin: 0 0 10px;
+  }
+  
+  .grid-container p {
+    margin: 5px 0;
+  }
+  
+ .grid-container a {
+    color: #484cb0;
+    text-decoration: none;
+  }
+  
+  .grid-container a:hover {
+    text-decoration: underline ;
+  }
+
+  .school-card img{
+    margin: 2% auto;
+  }
+
